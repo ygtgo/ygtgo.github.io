@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo搭建博客," />
 
 
 
@@ -94,17 +94,31 @@
 
 
 
-<meta name="description" content="a little bit more">
+<meta name="description" content="#前言我们应该如何进行博客编写？">
+<meta name="keywords" content="Hexo搭建博客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello YGT">
-<meta property="og:url" content="http://yoursite.com/2018/08/03/hello-YGT/index.html">
+<meta property="og:title" content="Hexo+Github--搭建个人博客(三) 如何进行博客编写">
+<meta property="og:url" content="http://yoursite.com/2018/09/17/Hexo-Github-搭建个人博客-三-如何进行博客编写/index.html">
 <meta property="og:site_name" content="GuiTai&#39;s Blog">
-<meta property="og:description" content="a little bit more">
+<meta property="og:description" content="#前言我们应该如何进行博客编写？">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-02T16:50:28.508Z">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-1.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-2.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-3.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-4.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-5.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-6.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-7.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-8.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-9.png">
+<meta property="og:image" content="http://yoursite.com/2018/09/17/Hexo-Github-搭建个人博客-三-如何进行博客编写/链接地址">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-10.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo3-11.png">
+<meta property="og:updated_time" content="2018-09-18T15:44:35.663Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello YGT">
-<meta name="twitter:description" content="a little bit more">
+<meta name="twitter:title" content="Hexo+Github--搭建个人博客(三) 如何进行博客编写">
+<meta name="twitter:description" content="#前言我们应该如何进行博客编写？">
+<meta name="twitter:image" content="http://yoursite.com/img/hexo3-1.png">
 
 
 
@@ -133,13 +147,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/08/03/hello-YGT/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/17/Hexo-Github-搭建个人博客-三-如何进行博客编写/"/>
 
 
 
 
 
-  <title>Hello YGT | GuiTai's Blog</title>
+  <title>Hexo+Github--搭建个人博客(三) 如何进行博客编写 | GuiTai's Blog</title>
   
 
 
@@ -272,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/03/hello-YGT/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/17/Hexo-Github-搭建个人博客-三-如何进行博客编写/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="GT.Yao">
@@ -289,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello YGT</h1>
+          <h1 class="post-title" itemprop="name headline">Hexo+Github--搭建个人博客(三) 如何进行博客编写</h1>
         
 
         <div class="post-meta">
@@ -301,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-03T00:43:51+08:00">
-                2018-08-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-17T22:39:53+08:00">
+                2018-09-17
               </time>
             
 
@@ -344,7 +358,30 @@
       
 
       
-        
+        <p>#前言<br>我们应该如何进行博客编写？</p>
+<a id="more"></a>
+<p>接下来到了博客编写这一步了，Hexo是使用<a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin" title="markdown百度百科" target="_blank" rel="noopener">markdown</a>来进行解析文章的，Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。许多博客平台都支持markdown来进行文章编写，接下来我会在编写这篇文章的同时，一步步的在hexo上进行同步编写和操作一遍。</p>
+<p>首先，了解下新建文章的命令：<br>    hexo new [layout] <title></title></p>
+<p>layout 指的是文章的布局，布局的方式有三种：<font color="red">post、draft、page</font>默认为post,在hexo的配置文件中可以进行修改默认布局。这三种布局的区别在哪呢？最后我会再分析，我们现在就先使用post方式来进行创建文章。<br><img src="/img/hexo3-1.png" alt="默认布局"><br>  我们现在进入到博客文件目录中，新建一篇文章，执行如下命令：<br><img src="/img/hexo3-2.png" alt="新建文章"><br>执行后我们可以看到在博客目录下的\source_posts创建了一个.md文件，我们就是在这个文件中编写我们的博客内容了<br><img src="/img/hexo3-3.png" alt="生成文章"></p>
+<h1 id="一：博客的标题、日期、标签"><a href="#一：博客的标题、日期、标签" class="headerlink" title="一：博客的标题、日期、标签"></a><strong>一：博客的标题、日期、标签</strong></h1><p> 打开该文件，我们可以看到自动生成 title:文章标题，date:日期，tags:标签，这些我们都可以进行修改。接着下面就是博客正文编写的地方了。</p>
+<p>这里可以看到我使用了一个<!--more-->，它的作用是让博文列表上不显示全部内容，也就是文章摘要<br><img src="/img/hexo3-4.png" alt="正文"></p>
+<p>我们先来部署一下看下效果如何：执行命令：<br>    hexo g  部署</p>
+<pre><code>hexo s  运行服务器
+</code></pre><p><img src="/img/hexo3-5.png" alt="部署效果"></p>
+<h1 id="二、插入链接、代码段和图片"><a href="#二、插入链接、代码段和图片" class="headerlink" title="二、插入链接、代码段和图片"></a><strong>二、插入链接、代码段和图片</strong></h1><p><strong>插入链接的格式为：</strong></p>
+<font color="red">链接 : [高亮文本]（链接地址 “说明”）</font><br><img src="/img/hexo3-6.png" alt="链接"><br>效果如下：<br><img src="/img/hexo3-7.png" alt="链接"><br><br><strong> 插入代码有两种方式：</strong><br><font color="red"><br>1.基于缩进代码行或者4个空格位<br><br>2.使用三个回勾号’’’ 代码 ‘’’<br></font>
+
+<p><img src="/img/hexo3-8.png" alt="代码"></p>
+<p>效果如下：<br><img src="/img/hexo3-9.png" alt="代码"></p>
+<p><strong> 插入图片的格式为：</strong><br> <font color="red"><img src="链接地址" alt="图片名称"> </font><br>有两种方式：</p>
+<ol>
+<li><p>使用本地路径：在hexo/source目录下新建一个img文件夹，将图片放入该文件夹下，插入图片时链接即为/img/图片名称。</p>
+</li>
+<li><p>因为GitHub提供的空间有限，如果我们需要更多的空间来存放我们的博客图片，那么就要使用图床了（我使用的是七牛云）之后会详细介绍如何更好的利用七牛云管理我们的图片<br><img src="/img/hexo3-10.png" alt="图片"></p>
+</li>
+</ol>
+<p>效果如下<br><img src="/img/hexo3-11.png" alt="图片"></p>
+
       
     </div>
     
@@ -359,6 +396,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo搭建博客/" rel="tag"># Hexo搭建博客</a>
+          
+        </div>
+      
 
       
       
@@ -368,15 +411,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/08/03/hello-YGT/" rel="next" title="Hello YGT">
+                <i class="fa fa-chevron-left"></i> Hello YGT
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/09/17/Hexo-Github-搭建个人博客-三-如何进行博客编写/" rel="prev" title="Hexo+Github--搭建个人博客(三) 如何进行博客编写">
-                Hexo+Github--搭建个人博客(三) 如何进行博客编写 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -428,8 +471,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/head.jpg"
@@ -482,6 +534,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一：博客的标题、日期、标签"><span class="nav-number">1.</span> <span class="nav-text">一：博客的标题、日期、标签</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、插入链接、代码段和图片"><span class="nav-number">2.</span> <span class="nav-text">二、插入链接、代码段和图片</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
