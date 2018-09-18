@@ -113,7 +113,7 @@
 <meta property="og:image" content="http://yoursite.com/img/hexo3-9.png">
 <meta property="og:image" content="http://yoursite.com/img/hexo3-10.png">
 <meta property="og:image" content="http://yoursite.com/img/hexo3-11.png">
-<meta property="og:updated_time" content="2018-09-18T15:50:24.851Z">
+<meta property="og:updated_time" content="2018-09-18T15:54:09.017Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Github--搭建个人博客(三) 如何进行博客编写">
 <meta name="twitter:description" content="#前言我们应该如何进行博客编写？">
@@ -360,14 +360,14 @@
         <p>#前言<br>我们应该如何进行博客编写？</p>
 <a id="more"></a>
 <p>接下来到了博客编写这一步了，Hexo是使用<a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin" title="markdown百度百科" target="_blank" rel="noopener">markdown</a>来进行解析文章的，Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。许多博客平台都支持markdown来进行文章编写，接下来我会在编写这篇文章的同时，一步步的在hexo上进行同步编写和操作一遍。</p>
-<p>首先，了解下新建文章的命令：<br>    hexo new [layout] <title></title></p>
-<p>layout 指的是文章的布局，布局的方式有三种：<font color="red">post、draft、page</font>默认为post,在hexo的配置文件中可以进行修改默认布局。这三种布局的区别在哪呢？最后我会再分析，我们现在就先使用post方式来进行创建文章。<br><img src="/img/hexo3-1.png" alt="默认布局"><br>  我们现在进入到博客文件目录中，新建一篇文章，执行如下命令：<br><img src="/img/hexo3-2.png" alt="新建文章"><br>执行后我们可以看到在博客目录下的\source_posts创建了一个.md文件，我们就是在这个文件中编写我们的博客内容了<br><img src="/img/hexo3-3.png" alt="生成文章"></p>
-<h1 id="一：博客的标题、日期、标签"><a href="#一：博客的标题、日期、标签" class="headerlink" title="一：博客的标题、日期、标签"></a><strong>一：博客的标题、日期、标签</strong></h1><p> 打开该文件，我们可以看到自动生成 title:文章标题，date:日期，tags:标签，这些我们都可以进行修改。接着下面就是博客正文编写的地方了。</p>
+<h1 id="首先，了解下新建文章的命令："><a href="#首先，了解下新建文章的命令：" class="headerlink" title="首先，了解下新建文章的命令："></a>首先，了解下新建文章的命令：</h1><pre><code>hexo new [layout] &lt;title&gt;
+</code></pre><p>layout 指的是文章的布局，布局的方式有三种：<font color="red">post、draft、page</font>默认为post,在hexo的配置文件中可以进行修改默认布局。这三种布局的区别在哪呢？最后我会再分析，我们现在就先使用post方式来进行创建文章。<br><img src="/img/hexo3-1.png" alt="默认布局"><br>  我们现在进入到博客文件目录中，新建一篇文章，执行如下命令：<br><img src="/img/hexo3-2.png" alt="新建文章"><br>执行后我们可以看到在博客目录下的\source_posts创建了一个.md文件，我们就是在这个文件中编写我们的博客内容了<br><img src="/img/hexo3-3.png" alt="生成文章"></p>
+<h1 id="博客的标题、日期、标签"><a href="#博客的标题、日期、标签" class="headerlink" title="博客的标题、日期、标签"></a><strong>博客的标题、日期、标签</strong></h1><p> 打开该文件，我们可以看到自动生成 title:文章标题，date:日期，tags:标签，这些我们都可以进行修改。接着下面就是博客正文编写的地方了。</p>
 <p>这里可以看到我使用了一个<!--more-->，它的作用是让博文列表上不显示全部内容，也就是文章摘要<br><img src="/img/hexo3-4.png" alt="正文"></p>
 <p>我们先来部署一下看下效果如何：执行命令：<br>    hexo g  部署</p>
 <pre><code>hexo s  运行服务器
 </code></pre><p><img src="/img/hexo3-5.png" alt="部署效果"></p>
-<h1 id="二、插入链接、代码段和图片"><a href="#二、插入链接、代码段和图片" class="headerlink" title="二、插入链接、代码段和图片"></a><strong>二、插入链接、代码段和图片</strong></h1><p><strong>插入链接的格式为：</strong></p>
+<h1 id="插入链接、代码段和图片"><a href="#插入链接、代码段和图片" class="headerlink" title="插入链接、代码段和图片"></a><strong>插入链接、代码段和图片</strong></h1><p><strong>插入链接的格式为：</strong></p>
 <font color="red">链接 : [高亮文本]（链接地址 “说明”）</font><br><img src="/img/hexo3-6.png" alt="链接"><br>效果如下：<br><img src="/img/hexo3-7.png" alt="链接"><br><br><strong> 插入代码有两种方式：</strong><br><font color="red"><br>1.基于缩进代码行或者4个空格位<br><br>2.使用三个回勾号’’’ 代码 ‘’’<br></font>
 
 <p><img src="/img/hexo3-8.png" alt="代码"></p>
@@ -543,7 +543,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一：博客的标题、日期、标签"><span class="nav-number">1.</span> <span class="nav-text">一：博客的标题、日期、标签</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、插入链接、代码段和图片"><span class="nav-number">2.</span> <span class="nav-text">二、插入链接、代码段和图片</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#首先，了解下新建文章的命令："><span class="nav-number">1.</span> <span class="nav-text">首先，了解下新建文章的命令：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#博客的标题、日期、标签"><span class="nav-number">2.</span> <span class="nav-text">博客的标题、日期、标签</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插入链接、代码段和图片"><span class="nav-number">3.</span> <span class="nav-text">插入链接、代码段和图片</span></a></li></ol></div>
             
 
           </div>
